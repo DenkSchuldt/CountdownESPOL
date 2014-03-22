@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Countdown ESPOL</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/css.css" rel="stylesheet">
+		<script src="js/countdown.js"></script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=276790459133085";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<header id="titulo">
+			<h1>Countdown ESPOL</h1>			
+		</header>
+		<section>
+			<p>Cuenta regresiva:</p>
+			<script>
+				var test1 = new Countdown({
+					   year : 2013, 
+					   month : 12, 
+					   day : 18, 
+					   hour : 2,
+					   ampm : "pm",
+					   minute : 0, 
+					   second : 0,
+					   width : 700,
+					   height : 150,
+					   inline : true,
+					   rangeHi : "day",
+					   rangeLo : "second",
+					   padding : 0.8,
+					   numbers : {
+						   font : "Arial",
+						   color : "#FFFFFF",
+						   bkgd	: "#365D8B",
+						   rounded	: 0.15,
+						   shadow	: {
+							   x : 0,
+							   y : 3,
+							   s : 4,
+							   c : "#365D8B",
+							   a : 0.4
+						   }
+						},
+						 labels	:	{
+							 font  	: "Arial",
+							 color 	: "#000000",
+							 weight	: "normal"
+						 }
+						});
+			</script>
+		</section><div class="fb-share-button" data-href="http://www.google.com" data-type="button_count"></div>
+		<div id="info_outter">
+			<img src="img/countdown.png" alt="Countdown ESPOL"/>
+			<div id="info_inner">
+				<h3>¿Qué es Countdown ESPOL?</h3>
+				<p>Countdown ESPOL es un evento simbólico, en el cual se despedirá el año 2013 lleno de 
+				nuevos deseos para recibir este 2014.</p>
+				
+				<h3>¿En qué consiste?</h3>
+				<p>El día del evento se elevarán globos al cielo. Estos llevarán consigo sus deseos, anhelos, 
+				dedicatorias o testamentos.
+				Las dedicatorias serán publicadas en el fan page de facebook con el hashtag #CountdownESPOL.</p>
+				
+				<h3>¿Cómo participo?</h3>
+				<p>Los días 16, 17 y 18 de diciembre, se venderán tickets que serán canjeados por globos el día 18 de diciembre
+				a partir de las 12H30. Los globos serán lanzados a las 14H00.</p>
+				
+				<h3>¿Dónde consigo el ticket?</h3>
+				<p>Cuando veas a un vendedor con nuestro logo en su carnet, podrás adquilirlo fácilmente.
+				En el fan page de facebook, publicaremos la ubicación del stand.
+				Stay tooned!</p>
+				
+				<h4>Nota:</h4> 
+				<p>En caso de que no puedas llegar al evento, tu globo será lanzado a las 15H00.</p>
+			</div>
+		</div>
+		<iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/edit?mid=zmJDQ7MKVDdg.kQsr8b5_HZWs"></iframe>
+		<footer>
+			<div id="izq">
+				<a href="https://twitter.com/intent/tweet?button_hashtag=CountdownESPOL&text=Yo%20voy%20a%20visitar%20en%20stand%20de" class="twitter-hashtag-button" data-lang="es" data-size="large" data-url="http://www.fiec.espol.edu.ec/countdownESPOL">Tweet #CountdownESPOL</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+			<div id="der">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/countdownESPOL" scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/functions.js"></script>
+	</body>
+</html>
